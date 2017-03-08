@@ -7,4 +7,3 @@ stage 'Dev'
         echo 'Hello World'
     }
 }
-
