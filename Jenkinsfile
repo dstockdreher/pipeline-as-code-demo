@@ -1,9 +1,10 @@
-#!groovy
-
-stage 'Dev'
-node{
-    steps {
-        checkout scm
-        echo 'Hello World'
+pipeline {
+    agent any
+    stages { 
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
